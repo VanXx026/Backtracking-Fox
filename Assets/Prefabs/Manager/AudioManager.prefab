@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4577679093490196120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577679093490196125}
+  - component: {fileID: 4577679093490196126}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577679093490196125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4577679093490196120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4577679093490196126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4577679093490196120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36d5ab8b71044749984e77d7fb207c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGMClip: {fileID: 8300000, guid: 89f935015cc98724a862a586326fdf21, type: 3}
+  getHitClip: {fileID: 8300000, guid: f43513c8bf5be234a8769368ef090184, type: 3}
+  jumpClip: {fileID: 8300000, guid: 353d8a9f4c12b21459f2e9446740e995, type: 3}
+  skillClip: {fileID: 8300000, guid: 3dbf449f2265b5a4cb4dd532a4cbafcc, type: 3}
+  rollBackClip: {fileID: 8300000, guid: cbbc00cb47ac0654aadac129f5592961, type: 3}
+  gainClip: {fileID: 8300000, guid: e157d8c7fe1c3c64c912271f5c63885f, type: 3}
+  winClip: {fileID: 8300000, guid: f4c94b77e5e91ea48a04373a2a13b5ad, type: 3}
+  loseClip: {fileID: 8300000, guid: 89cee31bc4be7374a8dce4faea72d748, type: 3}
+  BGMSource: {fileID: 0}
+  playerSource: {fileID: 0}
+  rollBackSource: {fileID: 0}
+  panelSource: {fileID: 0}
